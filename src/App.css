@@ -1,0 +1,26 @@
+*{
+background-image: url("./img.jpg");
+}
+
+.app-select{
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+}
+
+
+.app {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 20px;
+  color: rgb(30, 84, 199);
+}
+
+@media screen and (max-width: 600px) {
+  .app{
+    text-align: center;
+  }
+  
+}
+
